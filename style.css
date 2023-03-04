@@ -1,0 +1,42 @@
+body,h1,h2,p{
+    margin: 0;
+
+}
+
+ul,ol{
+    padding: 0;
+
+}
+.header {
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+}
+.header__left {
+    display: flex;  
+    align-items: center; 
+    justify-content: space-between;
+    width: 50%;
+}
+.left__logo {
+    display: flex;  
+    align-items: center;
+}
+.logo__img {
+    width: 10%;
+}
+.logo__title {
+}
+.left__nav {
+    width: 35%;
+    display: flex;  
+    align-items: center; 
+    justify-content: space-between;
+}
+.nav__link {
+}
+.header__right {
+
+}
+.right__icon {
+}
